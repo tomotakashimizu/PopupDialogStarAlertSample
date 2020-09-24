@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-PopupDialogStarAlertSample/Pods-PopupDialogStarAlertSample-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework
+${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework
+${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework

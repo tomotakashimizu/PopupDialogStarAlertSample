@@ -1,0 +1,24 @@
+PODS:
+  - Cosmos (23.0.0)
+  - DynamicBlurView (4.1.0)
+  - PopupDialog (1.1.1):
+    - DynamicBlurView (~> 4.0)
+
+DEPENDENCIES:
+  - Cosmos (~> 23.0)
+  - PopupDialog (~> 1.1)
+
+SPEC REPOS:
+  trunk:
+    - Cosmos
+    - DynamicBlurView
+    - PopupDialog
+
+SPEC CHECKSUMS:
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  DynamicBlurView: 58e18fae80bb614e34681a4486870e7d257b62e8
+  PopupDialog: 720c92befd8bc23c13442254945213db5612f149
+
+PODFILE CHECKSUM: afdcbe609609b40113869c5a6bf396de0e0403d4
+
+COCOAPODS: 1.9.1
