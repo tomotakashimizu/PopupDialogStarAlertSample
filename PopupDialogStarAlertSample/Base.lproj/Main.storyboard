@@ -63,7 +63,7 @@
                     </view>
                     <connections>
                         <outlet property="commentLabel" destination="alL-Mj-zJ3" id="Chi-pB-ugq"/>
-                        <outlet property="label" destination="tUR-MM-w1O" id="LmT-Gc-LKf"/>
+                        <outlet property="starLabel" destination="tUR-MM-w1O" id="LmT-Gc-LKf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

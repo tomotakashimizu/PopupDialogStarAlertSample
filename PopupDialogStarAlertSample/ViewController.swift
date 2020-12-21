@@ -10,7 +10,7 @@ import PopupDialog
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var starLabel: UILabel!
     @IBOutlet weak var commentLabel: UILabel!
     
     override func viewDidLoad() {
@@ -31,12 +31,12 @@ class ViewController: UIViewController {
         
         // Create first button
         let buttonOne = CancelButton(title: "CANCEL", height: 60) {
-            self.label.text = "You canceled the rating dialog"
+            self.starLabel.text = "You canceled the rating dialog"
         }
         
         // Create second button
         let buttonTwo = DefaultButton(title: "RATE", height: 60) {
-            self.label.text = "You rated \(ratingVC.cosmosStarRating.rating) stars"
+            self.starLabel.text = "You rated \(ratingVC.cosmosStarRating.rating) stars"
             self.commentLabel.text = ratingVC.commentTextField.text
         }
         
