@@ -16,7 +16,9 @@ class RatingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // star数のデフォルトを3.0に設定
         cosmosStarRating.rating = 3.0
+        
         commentTextField.delegate = self
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(endEditing)))
     }
@@ -26,6 +28,7 @@ class RatingViewController: UIViewController {
     }
 }
 
+// textFieldに関する処理
 extension RatingViewController: UITextFieldDelegate {
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
