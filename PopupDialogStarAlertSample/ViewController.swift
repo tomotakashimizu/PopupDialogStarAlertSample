@@ -11,7 +11,7 @@ import PopupDialog
 class ViewController: UIViewController {
     
     @IBOutlet weak var label: UILabel!
-    @IBOutlet var commentLabel: UILabel!
+    @IBOutlet weak var commentLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
